@@ -1,3 +1,5 @@
 {
-    "bunVersion": "1.x"
+    "runtime": {
+        "bunVersion": "1.x"
+    }
 }
