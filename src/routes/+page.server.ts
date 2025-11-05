@@ -6,7 +6,7 @@ export const load: PageServerLoad = async () => {
   // Check if the code is running in the Bun runtime environment
   if (typeof Bun !== 'undefined') {
     bunVersion = Bun.version;
-  } else (process.versions && process.versions.bun) {
+  } else{
     console.log("Not running with Bun (likely Node.js or Edge)");
     console.log("Node version:", process.versions.node);
   }
