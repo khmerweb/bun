@@ -9,7 +9,7 @@ export const load: PageServerLoad = async () => {
   } else if (process.versions && process.versions.bun) {
     bunVersion = process.versions.bun;
   }
-
+console.log("Bun version:", bunVersion);
   return {
     bunVersion
   };
